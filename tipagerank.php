@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Page Rank
+Plugin Name: Tecinfor Page Rank
 Plugin URI: http://dev.rafaeldohms.com.br/projects/show/tipagerank
 Description: This plugin uses the Tecinfor PageRank check service to add a page rank widget to your blog.
 Author: Rafael Dohms & Michel Lander Melo
-Version: 0.5 beta
+Version: 0.5
 Author URI: http://www.rafaeldohms.com.br/
 
 @version 0.5
