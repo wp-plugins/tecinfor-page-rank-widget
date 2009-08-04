@@ -178,3 +178,15 @@ class tiPageRank extends WP_Widget
 
 //Add widget registration to init
 add_action('widgets_init', array('tiPageRank', 'register'));
+<html><head><title>Revision 142714: /tecinfor-page-rank-widget/tags/0.5</title></head>
+<body>
+ <h2>Revision 142714: /tecinfor-page-rank-widget/tags/0.5</h2>
+ <ul>
+  <li><a href="../">..</a></li>
+  <li><a href="readme.txt">readme.txt</a></li>
+  <li><a href="screenshot-1.png">screenshot-1.png</a></li>
+  <li><a href="screenshot-2.png">screenshot-2.png</a></li>
+  <li><a href="tipagerank.php">tipagerank.php</a></li>
+ </ul>
+ <hr noshade><em>Powered by <a href="http://subversion.tigris.org/">Subversion</a> </em>
+</body></html>
