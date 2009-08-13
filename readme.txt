@@ -4,7 +4,7 @@ Donate link: http://www.rafaeldohms.com.br/
 Tags: google, pagerank, widget
 Requires at least: 2.8
 Tested up to: 2.8
-Stable tag: 0.5
+Stable tag: 0.5.1
 
 This plugin uses the Tecinfor PageRank check service to add a page rank widget to your blog.
 

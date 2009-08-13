@@ -4,10 +4,10 @@ Plugin Name: Tecinfor Page Rank
 Plugin URI: http://dev.rafaeldohms.com.br/projects/show/tipagerank
 Description: This plugin uses the Tecinfor PageRank check service to add a page rank widget to your blog.
 Author: Rafael Dohms & Michel Lander Melo
-Version: 0.5
+Version: 0.5.1
 Author URI: http://www.rafaeldohms.com.br/
 
-@version 0.5
+@version 0.5.1
 */
 
 class tiPageRank extends WP_Widget
@@ -161,6 +161,7 @@ class tiPageRank extends WP_Widget
 		$serviceUrl = $this->prUrl;
 		$serviceUrl .= '?url='.get_bloginfo('url');
 		$serviceUrl .= '&img='.$format;
+		$serviceUrl .= '&method=wp';
 
 		return str_replace("[SRC]", $serviceUrl, $this->prCode);
 	}
@@ -178,15 +179,3 @@ class tiPageRank extends WP_Widget
 
 //Add widget registration to init
 add_action('widgets_init', array('tiPageRank', 'register'));
-<html><head><title>Revision 142714: /tecinfor-page-rank-widget/tags/0.5</title></head>
-<body>
- <h2>Revision 142714: /tecinfor-page-rank-widget/tags/0.5</h2>
- <ul>
-  <li><a href="../">..</a></li>
-  <li><a href="readme.txt">readme.txt</a></li>
-  <li><a href="screenshot-1.png">screenshot-1.png</a></li>
-  <li><a href="screenshot-2.png">screenshot-2.png</a></li>
-  <li><a href="tipagerank.php">tipagerank.php</a></li>
- </ul>
- <hr noshade><em>Powered by <a href="http://subversion.tigris.org/">Subversion</a> </em>
-</body></html>
